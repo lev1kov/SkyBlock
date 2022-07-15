@@ -28,10 +28,6 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
 
-jar {
-    baseName = 'E:/Plugin servers/1.8x-1.18x SkyBlock/skyblock/plugins/SkyBlock'
-}
-
 def targetJavaVersion = 17
 java {
     def javaVersion = JavaVersion.toVersion(targetJavaVersion)
