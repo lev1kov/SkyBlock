@@ -8,6 +8,8 @@ import java.util.Set;
 
 public interface Island {
 
+    String getName();
+
     Gamer getOwner();
 
     Set<Gamer> getMembers();
