@@ -1,0 +1,7 @@
+name: SkyBlock
+version: '${version}'
+main: lev1kov.skyblock.SkyBlock
+api-version: 1.18
+authors: [ lev1kov ]
+description: SkyBlock, SkyBlockAPI
+website: github.com/lev1kov
