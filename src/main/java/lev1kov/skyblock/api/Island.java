@@ -12,11 +12,21 @@ public interface Island {
 
     Set<Gamer> getMembers();
 
+    int getLevel();
+
+    int getXp();
+
     // All mobs in distance 50 blocks
     Set<Entity> getNearbyMobs();
 
     // Central block island`s
     Location getLocation();
+
+    /**
+     * Adding xp
+     * @param var1 xp
+     */
+    void addXp(int var1);
 
     /**
      * Creation of the island
